@@ -272,9 +272,9 @@ namespace samcodeschartboost
     void setStatusBarBehavior(bool shouldHide)
     {
         if(shouldHide) {
-            [Chartboost setStatusBarBehavior:CBStatusBarBehaviorIgnore];
+            // [Chartboost setStatusBarBehavior:CBStatusBarBehaviorIgnore];
         } else {
-            [Chartboost setStatusBarBehavior:CBStatusBarBehaviorRespect];
+            // [Chartboost setStatusBarBehavior:CBStatusBarBehaviorRespect];
         }
     }
     
